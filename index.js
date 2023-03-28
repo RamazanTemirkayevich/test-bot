@@ -24,7 +24,7 @@ const start = () => {
         const chatId = msg.chat.id;
 
         if (text === '/start') {
-            return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот "Крымские решения"`);
+            return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот "NAME__BOT"`);
         }
         if (text === '/news') {
             return bot.sendMessage(chatId, 'Хотите предложить новость?')
